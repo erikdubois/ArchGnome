@@ -1,0 +1,66 @@
+#!/bin/bash
+#              `.-/::/-``
+#            .-/osssssssso/.               
+#           :osyysssssssyyys+-              
+#        `.+yyyysssssssssyyyyy+.           
+#       `/syyyyyssssssssssyyyyys-`         
+#      `/yhyyyyysss++ssosyyyyhhy/`         
+#     .ohhhyyyyso++/+oso+syy+shhhho.       
+#    .shhhhysoo++//+sss+++yyy+shhhhs.      
+#   -yhhhhs+++++++ossso+++yyys+ohhddy:     
+#  -yddhhyo+++++osyyss++++yyyyooyhdddy-    
+# .yddddhso++osyyyyys+++++yyhhsoshddddy`   
+#`odddddhyosyhyyyyyy++++++yhhhyosddddddo   
+#.dmdddddhhhhhhhyyyo+++++shhhhhohddddmmh.  
+#ddmmdddddhhhhhhhso++++++yhhhhhhdddddmmdy  
+#dmmmdddddddhhhyso++++++shhhhhddddddmmmmh  
+#-dmmmdddddddhhyso++++oshhhhdddddddmmmmd- 
+# .smmmmddddddddhhhhhhhhhdddddddddmmmms. 
+#   `+ydmmmdddddddddddddddddddmmmmdy/.     
+#      `.:+ooyyddddddddddddyyso+:.`
+#======================================================================================
+#                              G N O M E
+# 
+# Author  : Erik Dubois at http://www.erikdubois.be
+# License : Distributed under the terms of GNU GPL version 2 or later
+# 
+# AS ALLWAYS, KNOW WHAT YOU ARE DOING.
+#======================================================================================
+
+
+1 KEYBOARD
+
+sudo loadkeys be-latin1    in order to have azerty KEYBOARD
+
+change also the following file to make it permanent
+
+sudo nano /etc/vconsole.conf
+
+change your keyboard from "be"  to "be-latin1"
+
+Do the same in gnome - search for keyboard and add Belgian keyboard
+
+
+
+
+	E X T R A
+
+
+NVIDIA DRIVERS
+
+sudo pacman -S nvidia   and press a few times on TAB - see on nvidia what number
+of driver you should install
+
+
+CNCHI (if during installation cnchi gives you trouble)
+
+From github :
+From the ISO, close Cnchi and run this commands from a terminal:
+sudo pacman -S git
+sudo rm -rf /usr/share/cnchi
+git clone https://github.com/Antergos/cnchi --depth=1
+cd cnchi
+./run﻿
+
+
+
