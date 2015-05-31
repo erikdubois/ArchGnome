@@ -41,7 +41,7 @@
 
 ######## A C C E S S O R I E S #########
 
-# sudo pacman -S terminator 
+sudo pacman -S terminator 
 
 sudo pacman -S unclutter 
 
