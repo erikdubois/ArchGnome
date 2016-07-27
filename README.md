@@ -1,6 +1,8 @@
 # ArchGnome
 
-psss.... Just for me.
+Installing notes for my personal use.
+
+![Screenshots](http://i.imgur.com/SintmxK.jpg)
 
 # FASE 1
 
@@ -162,6 +164,8 @@ sudo pacman -S gnome gnome-extra
 may be also gnome-extra?
 
 
+
+
 # FASE 5 Display manager
 
 easy switching between desktop environments and login
@@ -214,9 +218,11 @@ Go inside the folder and run every program in there
 
 ./3 ...
 
+
 run forest run
 
 
+# Tips
 
 
 printscreen keyboard shortcut
@@ -225,9 +231,6 @@ scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 
 
-
-
-again this is personal ssssshhhh
 
 
 
