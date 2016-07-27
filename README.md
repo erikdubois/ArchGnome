@@ -4,7 +4,7 @@ psss.... Just for me.
 
 # FASE 1
 
-Steps to take when installing Budgie from scratch
+Steps to take when installing Gnome from scratch
 
 Pop in the latest arch usb
 
@@ -157,7 +157,7 @@ sudo pacman -S xf86-video-nouveau
 # FASE 4 Desktop environment
 
 
-sudo pacman -S budgie-desktop gnome 
+sudo pacman -S gnome gnome-extra
 
 may be also gnome-extra?
 
@@ -184,7 +184,7 @@ export EDITOR=nano
 
 sudo pacman -S firefox
 
-Surf to https://github.com/erikdubois/ArchBudgie
+Surf to https://github.com/erikdubois/ArchGnome
 
 If you download the zip
 
@@ -197,10 +197,14 @@ If you work with git
 
 sudo pacman -S git
 
-git clone https://github.com/erikdubois/ArchBudgie
+git clone https://github.com/erikdubois/ArchGnome
 
 
 Go inside the folder and run every program in there
+
+
+./0 added this to start xserver, desktop environment and display manager
+
 
 ./1 and press tab etcetera
 
