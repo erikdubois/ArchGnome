@@ -2,13 +2,11 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
@@ -17,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="activities-active.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -31,18 +29,18 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="4.4779162"
-     inkscape:cy="11.459165"
+     inkscape:zoom="24.852157"
+     inkscape:cx="6.951695"
+     inkscape:cy="11.380048"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="848"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="34"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -75,28 +73,11 @@
     <sodipodi:guide
        position="12,12"
        orientation="1,0"
-       id="guide4135" />
+       id="guide4135"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
-     id="defs3">
-    <linearGradient
-       id="selected_bg_color"
-       osb:paint="solid">
-      <stop
-         style="stop-color:#CC4B00;stop-opacity:1;"
-         offset="0"
-         id="stop4140" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#selected_bg_color"
-       id="linearGradient4142"
-       x1="6"
-       y1="287"
-       x2="6"
-       y2="289"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs3" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -113,7 +94,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -153,26 +134,10 @@
      inkscape:label="Base"
      id="layer1"
      transform="translate(0,-276)">
-    <rect
-       style="opacity:1;fill:url(#linearGradient4142);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4138"
-       width="2"
-       height="2"
-       x="5"
-       y="287" />
-    <rect
-       style="display:inline;opacity:1;fill:url(#selected_bg_color);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
-       id="rect4138-6"
-       width="2"
-       height="2"
-       x="11"
-       y="287" />
-    <rect
-       style="display:inline;opacity:1;fill:url(#selected_bg_color);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
-       id="rect4138-9"
-       width="2"
-       height="2"
-       x="17"
-       y="287" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#cc4b00;fill-rule:evenodd;stroke-width:0.03383153;fill-opacity:1"
+       d="m 11.998445,279.8317 c -0.727263,1.78273 -1.165911,2.94882 -1.975622,4.67856 0.496458,0.52614 1.105833,1.13887 2.09545,1.83087 -1.063939,-0.43772 -1.862174,-0.76848 -2.404528,-1.22449 -1.0362795,2.16193 -2.5873346,5.13281 -5.882033,11.05163 2.5895199,-1.49471 4.5968758,-2.4162 6.467637,-2.76783 -0.08036,-0.34544 -0.126005,-0.71909 -0.122901,-1.10897 l 0.0031,-0.0829 c 0.04105,-1.65873 0.904127,-2.93428 1.92647,-2.84768 1.022342,0.0866 1.816994,1.50229 1.775907,3.16101 -0.0082,0.31212 -0.04299,0.61238 -0.104462,0.89087 1.850444,0.36192 3.836337,1.28105 6.390825,2.75553 -0.503698,-0.92717 -0.953279,-1.76294 -1.382636,-2.55893 -0.676282,-0.52407 -1.381675,-1.20614 -2.820559,-1.94452 0.988995,0.25693 1.624621,0.46276 2.176582,0.79412 -4.365252,-8.12583 -4.646251,-9.11499 -6.143191,-12.62723 z"
+       id="path2" />
   </g>
 </svg>
