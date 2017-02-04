@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,24 +11,24 @@
 #
 ##################################################################################################################
 
+
+
+#https://github.com/andreisergiu98/arc-flatabulous-theme
+
+rm -rf /tmp/arc-flatabulous-theme
+
+#sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+sudo eopkg it -y autoconf automake pkg-config libgtk-3-devel m4 make
+
+git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
+cd /tmp/arc-flatabulous-theme
+./autogen.sh --prefix=/usr
+sudo make install
+#sudo make uninstall
+
+# cleanup
+rm -rf /tmp/arc-flatabulous-theme
+
 echo "################################################################"
-echo "#########   distro specific software installed  ################"
-echo "################################################################"
-
-#Fonts
-
-## sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed conflicts with ttf-google-fonts
-## sudo pacman -S ttf-droid --noconfirm --noconfirm --needed  conflicts with ttf-google-fonts
-## sudo pacman -S ttf-inconsolata --noconfirm --needed        conflicts with ttf-google-fonts
-sudo pacman -S noto-fonts --noconfirm --needed
-
-#file manager
-
-#sudo pacman -S nemo nemo-share nemo-fileroller --noconfirm --needed
-
-# extra extensions to compare files if needed install it
-# packer -S nemo-compare
-
-echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
