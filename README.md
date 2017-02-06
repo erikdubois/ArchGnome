@@ -42,20 +42,9 @@ http://erikdubois.be/how-to-install-arch-linux/
 ##2. Desktop environment installation
 
 
-Budgie installation on Arch Linux can be found on this article
+Gnome installation on Arch Linux can be found on this article
 
 http://erikdubois.be/how-to-install-gnome-on-arch-linux/
-
-
-#Remember
-
-
-##Setting nano instead of vi
-
-	export VISUAL=nano
-
-	export EDITOR=nano
-
 
 
 
@@ -63,10 +52,12 @@ http://erikdubois.be/how-to-install-gnome-on-arch-linux/
 
 Arch Linux gnome playlist
 
+https://www.youtube.com/playlist?list=PLlloYVGq5pS6-nC57wOcEeVTtSbPx_hZd
 
 
+Showing all sardi and surfn icons.
 
-
+https://www.youtube.com/watch?v=EHjCRJ3FdG0
 
 
 
